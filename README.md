@@ -6,6 +6,12 @@
 <p>Layout criado por Finsweet, Layout: <a>Eae</a> </p>
 
 
+<a href="https://www.instagram.com/bernardowertyy/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  </a>
+
+
+
 ## 🛠️ Tecnologias Usadas
 
 - HTML5

@@ -1,0 +1,1 @@
+"use strict";var accordion=document.querySelectorAll(".js-accordion");accordion.forEach(function(c){c.addEventListener("click",function(){c.parentElement.classList.toggle("active")})});

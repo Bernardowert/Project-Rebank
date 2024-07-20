@@ -1,0 +1,71 @@
+.card-enterprises{
+    flex: 1;
+    max-width: 20rem;
+    height: 5.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-banking{
+    flex: 1;
+    max-width: 53.6rem;
+    height: 85.2rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4.7rem 4.6rem 6rem;
+    background-color: #fff;
+    .top{
+        h3{
+            margin: 1.6rem 0 1.1rem 0;
+        }
+    }
+    position: relative;
+    z-index: 1;
+    .banking-card{
+        position: absolute;
+        &:is(&.img-01,&.img-02,&.img-04){
+            right: 0;
+            bottom: 0;
+        }
+        &.img-01,&.img-04{
+            z-index: -1;
+        }
+    }
+    &.first{
+        .btn{
+            margin-left: 2rem;
+            padding: 0 3.2rem;
+        }
+    }
+}
+
+.accordion{
+    width: 100%;
+    padding: 2.2rem 0;
+    border-bottom: 1px solid var(--Black-01);
+    .heading{
+        @include flex-justify(space-between);
+        cursor: pointer;
+        img{
+            transform: rotate(-180deg);
+            transition: transform .3s;
+        }
+    }
+    p{
+        display: none;
+        margin-top: 1.5rem;
+        animation: FadeIn .3s forwards;
+    }
+    &.active{
+        p{
+            display: block;
+        }
+        img{
+            transform: rotate(0deg);
+        }
+    }
+}

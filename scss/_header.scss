@@ -1,0 +1,34 @@
+header{
+    padding-top: 1.9rem;
+    .container{
+        @include flex-justify(space-between);
+    }
+    .logo{
+        margin-top: 1.5rem;
+    }
+    .card-nav{
+        width: 100%;
+        max-width: 46.7rem;
+        height: 7rem;
+        background-color: var(--Black-01);
+        border-radius: 10rem;
+        padding: 0 2.1rem 0 4.7rem;
+        @include flex-justify(space-between);
+        nav{
+            ul{
+                @include flex-center;
+                gap: 3.2rem;
+                li{
+                    a{
+                        font-size: 1.6rem;
+                        line-height: 150%;
+                        transition: color .3s;
+                        &:hover{
+                            color: #ff800f;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

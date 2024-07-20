@@ -1,0 +1,53 @@
+h1,
+h2,
+h3{
+    font-family: var(--second-family);
+    line-height: 120%;
+}
+
+h1,
+h3,
+h4{
+    color: var(--Black-01);
+}
+
+h1{
+    font-weight: 500;
+    font-size: 5.4rem;
+}
+h2{
+    font-size: 64px;
+}
+h3{
+    font-size: 48px;
+}
+
+h4{
+    font-size: 1.8rem;
+    line-height: 150%;
+}
+
+.sub-title{
+    line-height: 150%;
+    color: var(--Black-01);
+    display: block;
+    &.f-700{
+        font-weight: 700;
+    }
+    &.f-600{
+        font-weight: 600;
+    }
+    &.p-18{
+        font-size: 1.8rem;
+    }
+    &.p-16{
+        font-size: 1.6rem;
+    }
+}
+
+
+p{
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: var(--Black-01);
+}

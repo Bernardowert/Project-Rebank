@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    -webkit-font-smoothing:Antialiased;
+    font-family: var(--font-family);
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    pointer-events: none;
+    user-select: none;
+    &.scale{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html,
+body{
+    overflow-x: hidden;
+}
+
+.injectable{
+    transition: all .3s;
+}

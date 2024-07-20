@@ -1,0 +1,286 @@
+.s-hero{
+    padding-top: 7.8rem;
+    padding-bottom: 3.2rem;
+    .container{
+        display: flex;
+        align-items: flex-start;
+        gap: 13rem;
+    }
+    .area-left{
+        width: 100%;
+        max-width: 36.3rem;
+        position: relative;
+        margin-top: 7.2rem;
+        p{
+            margin: 1.4rem 0 4.9rem 0;
+            max-width: 24.7rem;
+        }
+        .btn-see{
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            margin-top: 7.3rem;
+            img{
+                transition: transform .3s;
+            }
+            span{
+                font-size: 1.6rem;
+                line-height: 150%;
+                color: var(--Black-01);
+                transition: color .3s;
+            }
+            &:hover{
+                span{
+                    color: #ff800f;
+                }
+                img{
+                    transform: translateX(6px);
+                }
+            }
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            width: 120.6rem;
+            bottom: 19.2rem;
+            height: 1px;
+            background-color: var(--Black-01);
+            z-index: -1;
+        }
+    }
+    .area-image{
+       width: 100%;
+       max-width: 79.1rem;
+       display: flex;
+       align-items: flex-end;
+       justify-content: space-between;
+       position: relative;
+       .left{
+          display: flex;
+          align-items: flex-start;
+          gap: 4rem;
+           img{
+            &:not(.cards-img){
+                max-width: 36.3rem;
+             }
+          }
+          ul{
+            margin-top: 9.9rem;
+            list-style: inside url("../svgs/icon-plus.svg");
+            li{
+                &:not(:last-child){
+                    margin-bottom: 1rem;
+                }
+                color: var(--Black-01);
+                font-size: 1.8rem;
+                line-height: 150%;
+            }
+          }
+       }
+       .btn-out{
+           margin-bottom: 4.6rem;
+       }
+
+       .cards-img{
+        position: absolute;
+        left: 2rem;
+        bottom: 19.5rem;
+       }
+       &::before,
+       &::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        max-width: 55.5rem;
+        height: 60.5rem;
+        border-radius: 100%;
+        z-index: -1;
+       }
+       &::before{
+         background-color: #f2ff37;
+         filter: blur(69px);
+         bottom: 3.2rem;
+         left: -10.5rem;
+         opacity: .35;
+       }
+       &::after{
+        background-color: #ff0101;
+        filter: blur(4.7rem);
+        bottom: 2.2rem;
+        right: -27.7rem;
+        opacity: 0.12;
+       }
+    } 
+}
+
+.s-enterprises{
+    padding-top: 7.5rem;
+    padding-bottom: 8rem;
+    span{
+        text-align: center;
+    }
+    .items{
+        @include flex-justify(space-between);
+        margin-top: 4.8rem;
+    }
+}
+
+.s-banking{
+    border-radius: 4rem;
+    padding-top: 10.4rem;
+    background-color: #111;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+        max-width: 91.5rem;
+    }
+    .items{
+        @include flex-center;
+        gap: 8.5rem;
+        margin-top: 7.8rem;
+        margin-bottom: 5.8rem;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 80.2rem;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background: url("../img/lay.webp") no-repeat center;
+        background-size: cover;
+        filter: blur(10rem);
+    }
+}
+
+.s-personalization{
+    padding-top: 13.5rem;
+    .container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .area-text{
+         width: 100%;
+         max-width: 56rem;
+         margin-top: 3.7rem;
+         h2{
+            font-size: 4.8rem;
+            color: var(--Black-01);
+            margin: 0.7rem 0 1.4rem 0;
+         }
+         .side{
+            margin-left: 0.7rem;
+            p{
+                max-width: 39.6rem;
+                margin-bottom: 6rem;
+            }
+         }
+    }
+    .area-image{
+        position: relative;
+        width: 100%;
+        max-width: 70.9rem;
+        height: 64.4rem;
+        margin-right: -5rem;
+        .images{
+            position: absolute;
+            &.img-01{
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+            }
+            &.img-02{
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+}
+
+.s-faqs{
+    padding: 11.2rem 0;
+    position: relative;
+    .container{
+        @include flex-center;
+        flex-direction: column;
+    }
+    .top{
+        h3{
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        p{
+            a{
+                font-weight: 600;
+                color: var(--Black-01);
+                transition: color .3s;
+                &:hover{
+                    color: var(--Purple-01);
+                }
+            }
+        }
+    }
+    .items{
+        border-top: 2px solid var(--Black-01);
+        margin-top: 8.3rem;
+        width: 100%;
+        max-width: 76.9rem;
+    }
+    .details{
+        position: absolute;
+        &.img-orange{
+            top: 1.3rem;
+            right: 0;
+        }
+        &.img-yellow{
+          top: 14.5rem;
+          left: 0;
+        }
+    }
+}
+
+
+.s-level{
+    padding-top: 6.8rem;
+    background-color: #090402;
+    height: 62.4rem;
+    overflow: hidden;
+    .container{
+        position: relative;
+        z-index: 1;
+    }
+    .area-text{
+        width: 100%;
+        max-width: 43.9rem;
+        h2{
+            font-weight: 500;
+            font-size: 4.8rem;
+        }
+        p{
+            color: #fff;
+            max-width: 25.8rem;
+            margin: 2.3rem 0 3.6rem 0;
+        }
+    }
+    .details{
+        position: absolute;
+        &.img-01{
+            top: 48px;
+            left: calc(54px + 15px);
+        }
+        &.img-02{
+            top: 1.1rem;
+            right: -4.7rem;
+            z-index: -1;
+        }
+    }
+}

@@ -1,0 +1,151 @@
+footer{
+    padding-top: 8rem;
+    padding-bottom: 8.1rem;
+    .top{
+        border-bottom: 1px solid var(--Black-01);
+        padding-bottom: 11.6rem;
+        margin-bottom: 3.2rem;
+        &,.left-area{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        .left-area{
+            flex: 1;
+            max-width: 62.4rem;
+            .logo{
+                font-weight: 700;
+                font-size: 2.4rem;
+                line-height: 150%;
+                letter-spacing: 0.05em;
+                color:var(--Black-01);
+            }
+            nav{
+                flex: 1;
+                max-width: 44.3rem;
+                @include flex-justify(space-between);
+                .item-nav{
+                     strong{
+                        font-weight: 600;
+                        font-size: 1.6rem;
+                        line-height: 150%;
+                        color: var(--Black-01);
+                     }
+                     ul{
+                        margin-top: 2.4rem;
+                        li{
+                            &:not(:last-child){
+                                margin-bottom: 1.6rem;
+                            }
+                            a{
+                                font-size: 1.4rem;
+                                line-height: 150%;
+                                color: var(--Black-01);
+                                transition: color .3s;
+                                &:hover{
+                                    color: #ff800f;
+                                }
+                            }
+                        }
+                     }
+                }
+            }
+        }
+        .right-area{
+            flex: 1;
+            max-width: 50rem;
+            .titles{
+                margin-bottom: 1.9rem;
+                strong{
+                    font-weight: 600;
+                    font-size: 1.6rem;
+                    line-height: 150%;
+                    color: var(--Black-01);
+                }
+                p{
+                    font-size: 1.6rem;
+                    margin-top: 1.9rem;
+                }
+            }
+            form{
+                width: 100%;
+                max-width: 47.6rem;
+                border-radius: 10rem;
+                height: 4.8rem;
+                @include flex-justify(space-between);
+                background-color: var(--Gray-02);
+                gap: 1rem;
+                margin-bottom: 1.9rem;
+                input{
+                  background-color: transparent;
+                  height: 100%;
+                  padding-left: 2.9rem;
+                  flex: 1;
+                  border-radius: inherit;
+                  font-size: 16px;
+                  color: var(--Black-01);
+                  &::placeholder{
+                    color: #505050;
+                  }
+                }
+                .btn{
+                    height: 100%;
+                    background-color: var(--Black-01);
+                    color: #fff;
+                    &:hover{
+                        background-color: transparent;
+                        color: var(--Black-01);
+                    }
+                }
+            }
+           & > p{ 
+            font-size: 1.2rem;
+            a{
+                color: var(--Black-01);
+                text-decoration: underline;
+                text-decoration-skip-ink:none;
+            }
+           }
+        }
+    }
+    .bottom{
+        @include flex-justify(space-between);
+        .left{
+            &,ul{
+                @include flex-center;
+                gap: 2.4rem;
+            }
+            span{
+                font-size: 1.4rem;
+                line-height: 150%;
+                color: var(--Black-01);
+            }
+            ul{
+                li{
+                    a{
+                        font-size: 1.4rem;
+                        line-height: 150%;
+                        text-decoration: underline;
+                        text-decoration-skip-ink: none;
+                        color: var(--Black-01);
+                    }
+                }
+            }
+        }
+        & > ul{
+            @include flex-center;
+            gap: 1.2rem;
+            li{
+                width: 2.4rem;
+                height: 2.4rem;
+                @include flex-justify(center);
+                a{
+                    transition: opacity .3s;
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+}

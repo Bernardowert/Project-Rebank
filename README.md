@@ -3,14 +3,7 @@
 
 <p>um layout elegante inspirado em um banco para oferecer seus clientes soluções mais rapidas</p>
 
-<p>Layout criado por Finsweet, Layout:<a href="https://www.instagram.com/bernardowertyy/" target="_blank">
-    logo
-  </a></p>
-
-
-<a href="https://www.instagram.com/bernardowertyy/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
+<p>Layout criado por Finsweet,<a href="https://www.instagram.com/bernardowertyy/" target="_blank">Layout</a></p>
 
 
 

@@ -6,6 +6,9 @@
 <p>Layout criado por Finsweet, Layout: <a href="https://www.figma.com/community/file/1227334231877401252/rebank?searchSessionId=lytl8n4e-c0hamfqar4i" target="_blank"></a> </p>
 
 
+<a href="https://www.instagram.com/bernardowertyy/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  </a>
 
 
 

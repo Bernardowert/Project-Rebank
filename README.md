@@ -21,6 +21,12 @@
 
 ###
 
+##  Requisitos
+
+1. NodeJs
+2. Gulp
+
+
 ## 🚀 Executando o Projeto
 
 Siga as instruções abaixo para executar o projeto em seu ambiente local:

@@ -1,7 +1,9 @@
 
 <h2>Projeto - Rebank</h2>
 
-<p>esse layout elegante, é um layout publico que criei atraves da ferramente figma fielmente,</p>
+<p>um layout elegante inspirado em um banco para oferecer seus clientes soluções mais rapidas</p>
+
+<p>Layout criado por Finsweet, Layout: <a href="https://www.figma.com/community/file/1227334231877401252/rebank?searchSessionId=lytl8n4e-c0hamfqar4i" target:_blank></a> </p>
 
 
 ## 🛠️ Tecnologias Usadas

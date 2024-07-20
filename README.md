@@ -34,7 +34,7 @@ Siga as instruções abaixo para executar o projeto em seu ambiente local:
 1. **Clone o repositório:**
 
    ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/Bernardowert/Project-Rebank
    ```
 
 2. **Navegue até o diretório do projeto:**
@@ -44,21 +44,20 @@ Siga as instruções abaixo para executar o projeto em seu ambiente local:
    ```
 
 3. **Instale as dependências:**
-
    ```
-   pip install -r requirements.txt
-   ```
-
-4. **Execute o servidor:**
-
-   ```
-   python app.py
+   npm install gulp
    ```
 
-5. **Acesse a aplicação:**
-
-   Abra o seu navegador e digite o seguinte endereço:
+4. **Instalando o projeto**
 
    ```
-   http://localhost:5000
+   npm install
+   ```
+
+5. **Acessando a aplicação:**
+
+   Abra o seu console e digite o seguinte comando:
+
+   ```
+   npm gulp
    ```

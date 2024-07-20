@@ -3,7 +3,7 @@
 
 <p>um layout elegante inspirado em um banco para oferecer seus clientes soluções mais rapidas</p>
 
-<p>Layout criado por Finsweet, Figma: <a href="https://www.instagram.com/bernardowertyy/" target="_blank">Layout</a></p>
+<p>Layout criado por Finsweet, Figma: <a href="https://www.figma.com/community/file/1227334231877401252/rebank?searchSessionId=lytl8n4e-c0hamfqar4i" target="_blank">Layout</a></p>
 
 
 

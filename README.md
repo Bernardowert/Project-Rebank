@@ -1,4 +1,4 @@
-🎉 **Bem-vindo ao {NomedoProjeto}** 🚀
+
 <h2>Projeto - Rebank</h2>
 
 <p>esse layout elegante, é um layout publico que criei atraves da ferramente figma fielmente,</p>
